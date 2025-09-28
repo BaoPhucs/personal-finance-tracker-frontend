@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-    baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:5237/api",
+    baseURL: import.meta.env.VITE_API_BASE_URL,
 });
 
 // Tự động gắn token vào header
